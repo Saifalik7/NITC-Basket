@@ -1,0 +1,8 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_menu_home" type="drawable">@drawable/ic_baseline_home_24</item>
+    <item name="ic_menu_cart" type="drawable">@drawable/cart</item>
+    <item name="ic_menu_ordres" type="drawable">@drawable/orders</item>
+    <item name="ic_menu_settings" type="drawable">@drawable/ic_baseline_settings_24</item>
+    <item name="ic_menu_logout" type="drawable">@drawable/logout</item>
+
+</resources>

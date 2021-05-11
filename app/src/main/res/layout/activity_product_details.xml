@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductDetails">
+
+    <ImageView android:layout_height="250dp"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/product_detail_image"
+        android:scaleType="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        android:textSize="20dp"
+        android:textColor="#FF018786"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/product_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/product_detail_image"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantity"
+        android:textSize="20dp"
+        android:textColor="#FF018786"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:id="@+id/product_Quantity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="250dp"
+        android:layout_below="@id/product_name"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product price"
+        android:id="@+id/product_price"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#FF018786"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="250dp"
+        android:layout_below="@id/product_Quantity"
+        />
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/linear_butn"
+        android:layout_below="@+id/product_price"
+        android:layout_marginTop="25dp"
+        >
+       <Button android:layout_width="70dp" android:layout_height="60dp"
+           android:text="-"
+           android:textColor="@color/white"
+           android:textSize="40dp"
+           android:background="#FF018786"
+           android:id="@+id/minus"
+           android:textStyle="bold"
+           android:layout_marginLeft="70dp"
+           />
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="1"
+            android:textColor="#FF018786"
+            android:id="@+id/prod_count"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+
+            />
+        <Button android:layout_width="70dp" android:layout_height="60dp"
+            android:text="+"
+            android:id="@+id/plus"
+            android:textColor="@color/white"
+            android:background="#FF018786"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Add to Cart"
+        android:id="@+id/add_to_cart"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#FF018786"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+       android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        />
+
+
+</RelativeLayout>

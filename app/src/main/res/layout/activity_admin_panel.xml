@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.AdminPanel">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add new Product"
+        android:textSize="30dp"
+        android:textColor="#FF018786"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/addp" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_below="@+id/addp" >
+
+       <ImageView android:layout_width="wrap_content"
+           android:layout_height="200dp"
+           android:src="@drawable/vegi1"
+           android:layout_marginTop="20dp"
+           android:id="@+id/imgvegi"
+           />
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Vegetables"
+            android:textSize="20dp"
+            android:textColor="#FF018786"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/vegi"
+            />
+
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/fruit2"
+            android:layout_marginTop="20dp"
+            android:id="@+id/imgfruit"
+            />
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Fruits"
+            android:textSize="20dp"
+            android:textColor="#FF018786"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/fruit"
+            />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

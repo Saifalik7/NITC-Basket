@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:elevation="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="#f0f8ff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/feedback_oid"
+            android:text="oid"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/feedback_name"
+            android:text="name"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_below="@id/feedback_oid"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/feedback_write"
+            android:text="feedback"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_below="@id/feedback_name"
+            android:layout_height="wrap_content"/>
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

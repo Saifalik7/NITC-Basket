@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/fruits"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="80dp"
+        android:text="NITC Basket"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="598dp"
+        android:layout_below="@+id/textView"
+        android:text="IF new ? Register Here"
+        android:textSize="20dp"
+        android:layout_marginTop="350dp"
+        android:onClick="register"
+        android:textColor="@color/white"
+        android:background="@color/cardview_shadow_start_color"
+        />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_shadow_start_color"
+        android:onClick="login"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/register"
+        android:text=" Log in"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+         />
+
+
+
+</RelativeLayout>

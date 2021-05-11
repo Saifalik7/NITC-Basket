@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:elevation="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="#f0f8ff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/del_man_id"
+            android:text=" Id"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/del_man_name"
+            android:text="Name"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_below="@id/del_man_id"
+            android:layout_height="wrap_content"/>
+
+
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+           android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_below="@id/del_man_name"
+            android:id="@+id/del_man_assign"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:background="#FF018786"
+            android:text="Assign Order"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+
+            />
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

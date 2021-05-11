@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:elevation="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="#f0f8ff">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/del_dash_order_id"
+            android:text="Order Id"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/del_dash_user_name"
+            android:text="Name"
+            android:padding="5dp"
+            android:layout_below="@id/del_dash_order_id"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/del_dash_address"
+            android:text="Address"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@id/del_dash_user_name"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/del_dash_total_price"
+            android:text="Total Price"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_below="@id/del_dash_date_time"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/del_dash_date_time"
+            android:text="Date Time"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"
+            android:layout_below="@id/del_dash_address"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="140dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:id="@+id/verify_user"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:background="#FF018786"
+            android:layout_below="@+id/del_dash_total_price"
+            android:text="Verify User"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+
+            />
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="140dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:id="@+id/say_no"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            android:background="#FF018786"
+            android:layout_toRightOf="@+id/verify_user"
+            android:layout_below="@+id/del_dash_total_price"
+            android:text="Refused"
+            android:textSize="15dp"
+            android:textColor="@color/white"/>
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
